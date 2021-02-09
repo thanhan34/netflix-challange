@@ -1,0 +1,57 @@
+.loginRow {
+  background-color: black;
+  display: flex;
+  position: relative;
+  padding: 50px 5%;
+  align-items: center;
+  border-bottom: 8px solid #222;
+  margin-bottom: 0;
+  color: #fff;
+}
+.loginRow__left {
+  height: 100%;
+  z-index: 3;
+  width: 52%;
+}
+.loginRow__left > h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.loginRow__left > h2 {
+  display: block;
+  font-size: 1.5rem;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.loginRow__right {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+.loginRow__rightContainer {
+  position: relative;
+  overflow: hidden;
+}
+.loginRow__rightContainer > img {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+.loginRow__videoContainer {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
